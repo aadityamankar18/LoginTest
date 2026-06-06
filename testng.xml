@@ -6,9 +6,10 @@
         <classes>
             <class name="org.example.LoginTest">
                 <methods>
-                    <include name="launchDriver"/>
-                    <include name="navigate"/>
-                    <include name="quitDriver"/>
+                    <include name="setUp"/>
+                    <include name="openFirstUrl"/>
+                    <include name="openSecondUrl"/>
+                    <include name="tearDown"/>
                 </methods>
             </class>
         </classes>
